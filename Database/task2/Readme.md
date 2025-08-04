@@ -15,7 +15,7 @@ if [ "$(basename $(pwd))" = "task1" ]; then cd ../task2; else cd Database/task2;
 ## Windows PowerShell
 if ((Split-Path -Leaf (Get-Location)) -eq "task1") { cd ../task2 } else { cd Database/task2 }
 
-python ./main.py
+python main.py
 ```
 
 ## 你的任务
@@ -29,8 +29,8 @@ python ./main.py
 
 Documentation of the python packages:
 
-| 依赖       | 中文/Chinese                                                                          | 英文/English                                                            |
-| ---------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 依赖         | 中文/Chinese                                                                           | 英文/English                                                                 |
+| ---------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
 | sqlalchemy | [SQLAlchemy 2.0 文档 - SQLAlchemy 中文](https://docs.sqlalchemy.org.cn/en/20/intro.html) | [SQLAlchemy Documentation 2.0](https://docs.sqlalchemy.org/en/20/)         |
-| SQLite     | [SQLite中文 文档分类导航](https://www.sqlite.cn/docs.html)                               | [SQLite Documentation](https://sqlite.org/docs.html)                       |
-| Flask      | [Flask文档-中文版（3.1.x）](https://flask.org.cn/en/stable/)                             | [Flask documentation(3.1.x)](https://flask.palletsprojects.com/en/stable/) |
+| SQLite     | [SQLite中文 文档分类导航](https://www.sqlite.cn/docs.html)                                   | [SQLite Documentation](https://sqlite.org/docs.html)                       |
+| Flask      | [Flask文档-中文版（3.1.x）](https://flask.org.cn/en/stable/)                                | [Flask documentation(3.1.x)](https://flask.palletsprojects.com/en/stable/) |

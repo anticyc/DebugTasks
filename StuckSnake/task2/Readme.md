@@ -14,7 +14,7 @@ if [ "$(basename $(pwd))" = "task1" ]; then cd ../task2; else cd StuckSnake/task
 if ((Split-Path -Leaf (Get-Location)) -eq "task1") { cd ../task2 } else { cd StuckSnake/task2 }
 
 # 运行游戏
-python ./Snake_retry_failure.py
+python Snake_retry_failure.py
 ```
 
 ## 你的任务

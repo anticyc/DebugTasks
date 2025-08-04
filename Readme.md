@@ -7,7 +7,7 @@
 ```bash
 pip install -r requirements.txt
 # 检验环境配置成功
-python ./PkgCheck.py
+python PkgCheck.py
 ```
 
 如果选择在conda环境下安装：
@@ -15,7 +15,7 @@ python ./PkgCheck.py
 ```bash
 conda env create -f environment.yml
 conda activate codeDebug
-python ./PkgCheck.py
+python PkgCheck.py
 ```
 
 Package Check: 若所有依赖均已成功安装，会提示“所有依赖均已成功安装！”

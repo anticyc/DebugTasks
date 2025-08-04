@@ -14,7 +14,7 @@ if [ "$(basename $(pwd))" = "task2" ]; then cd ../task1; else cd StuckSnake/task
 if ((Split-Path -Leaf (Get-Location)) -eq "task2") { cd ../task1 } else { cd StuckSnake/task1 }
 
 # 运行游戏
-python ./Snake_instant_move.py
+python Snake_instant_move.py
 ```
 
 ## 你的任务
