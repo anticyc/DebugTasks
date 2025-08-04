@@ -1,0 +1,19 @@
+name: codeDebug
+
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  
+dependencies:
+  - python=3.12
+  - pip
+  - openssl
+  - certifi
+  - pip:
+    - --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    - pyarrow
+    - sqlalchemy
+    - streamlit
+    - pygame
+    - flask
